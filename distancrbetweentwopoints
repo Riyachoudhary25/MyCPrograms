@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+	int x1,x2,y1,y2;
+	float distance;
+	printf("\n Enter the x and y coordinates of the first point:");
+	scanf("%d%d",&x1,&y1);
+	//sqrt and pow are mathematical fumcton defined in math.h header file	distance=sqrt(pow(x2-x1),+pow(y2-y1));
+	printf("\n distance=%f",distance);
+	return 0;
+}
